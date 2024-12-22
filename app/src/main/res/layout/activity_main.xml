@@ -7,11 +7,11 @@
     tools:context=".view.MainActivity">
 
     <Button
-        android:id="@+id/btnCountdown"
+        android:id="@+id/btnCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Countdown"
+        android:text="Counter"
         app:layout_constraintBottom_toTopOf="@+id/btnStopwatch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCountdown" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCounter" />
 
     <Button
         android:id="@+id/btnAlarm"
@@ -90,7 +90,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:text="Discover Android's scheduling and timing capabilities through practical examples and tools."
-        app:layout_constraintBottom_toTopOf="@+id/btnCountdown"
+        app:layout_constraintBottom_toTopOf="@+id/btnCounter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
