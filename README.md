@@ -6,12 +6,11 @@ A simple Android application that demonstrates the use of **Timer**, **AlarmMana
 
 ## Features ✨
 
-- **Countdown Timer**: Track time in reverse with customizable durations.
-- **Stopwatch**: Measure elapsed time from zero with precision.
+- **Timer Counter**: Track time upwards, starting from zero, with the option to stop and restart.
+- **Stopwatch**: Count down from the selected number of minutes to zero, providing a simple way to track time in reverse.
 - **AlarmManager**: Set alarms to trigger at specific times or intervals.
 - **WorkManager**: Schedule background tasks with constraints and retries.
 - **API Requests**: Example of network calls with scheduling.
-- **Modern Android development practices**: Utilizes Kotlin, coroutines, and architecture components for efficient and maintainable code.
 
 ---
 
