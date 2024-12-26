@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         with(binding){
-            btnCountdown.setOnClickListener {
+            btnCounter.setOnClickListener {
                 startActivity(Intent(applicationContext, CounterActivity::class.java))
             }
             btnStopwatch.setOnClickListener {

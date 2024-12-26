@@ -55,7 +55,7 @@ class WorkmanagerActivity : AppCompatActivity() {
 
         val periodicTimeWorkRequest = PeriodicWorkRequestBuilder<CustomWork>(
             15, TimeUnit.MINUTES //minimum time
-        ).setInitialDelay(20, TimeUnit.SECONDS)
+        ).setInitialDelay(1, TimeUnit.SECONDS)
             .build()
 
         val workManager = WorkManager.getInstance(applicationContext)
